@@ -172,7 +172,7 @@ def show_home(user_id):
     with col1:
         st.markdown("📝 **真题拆解**")
         st.markdown("深度分析每道题，掌握出题逻辑")
-        if st.button("开始刷题", key="start_qa"):
+        if st.button("开始提问", key="start_qa"):
             st.session_state.current_page = 'question_analysis'
             st.rerun()
     
