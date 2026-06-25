@@ -1,0 +1,17 @@
+all-MiniLM-L6-v2/
+data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
